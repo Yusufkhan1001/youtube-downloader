@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YouTube Downloader</title>
 
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        input { width: 300px; padding: 8px; }
+        button { padding: 10px 16px; margin-left: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>YouTube Video Downloader</h2>
+
+    <form action="/download" method="POST">
+        <input 
+            type="text" 
+            name="url" 
+            placeholder="Enter YouTube URL" 
+            required
+        />
+        <button type="submit">Download</button>
+    </form>
+
+</body>
+</html>
